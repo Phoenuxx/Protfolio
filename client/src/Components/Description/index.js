@@ -21,7 +21,7 @@ function Descript(props) {
         <div className="description-body" className={props.class}>
           <p>I played soccer for 14 years and have some interest in one day
           coaching a team myself. My favorite soccer team is Atlanta
-          United who won the MLS Cup last year in only their second year of
+          United who won the 2018 MLS Cup in only their second year of
           play. There are few things in this world that could compare to
           being in a building with 70 thousand other people who share your
           love for team and sport all chanting together and rooting for the
@@ -32,14 +32,12 @@ function Descript(props) {
       return (
         <div className="description-body" className={props.class}>
           <p> My favorite video game would be a bit of a more difficult
-          choice though. Bioshock Infinite would definitely be one at
+          choice though. Bioshock Infinite would definitely be near
           the top of the list. It built on the gameplay mechanics of the
           first two games that made them enjoyable, had a storyline
           that was easy to become immersed in and an environment that was
           stunning and stroked the imagination while still feeling
-          grounded in reality. It also throws in a bit of
-          theoretical physics that caught the interest of the scientist
-          in me. The Civilization series is also one of my top favorites.
+          grounded in reality. The Civilization series is also one of my top favorites.
           I spend quite a bit of time with strategy games and online shooters.
           I even watch E-Sports from time to time. Recently I've been watching
           a lot of the Overwatch League where my favorite team is the Atlanta Reign.

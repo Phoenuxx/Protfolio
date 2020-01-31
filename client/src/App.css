@@ -3,6 +3,31 @@ html, body {
   width: 100%;
   overflow-x: hidden;
   color: white;
+  font-family: 'Merriweather', serif; 
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 2px;
+}
+
+@media only screen and (min-width: 992px) {
+  html,body {
+    font-size: 20px;
+    line-height:1.75;
+  }
+
+  #about-me {
+    height: 2000px;
+    background-color:  rgb(21, 21, 34);
+  }
+
+  #profile-pic {
+    height: 400px;
+    width: 700px;
+    float: left;
+    margin-top: 10px;
+  }
 }
 
 a {
@@ -20,78 +45,49 @@ a:hover {
 .hobby-pic {
   max-height: 200px;
   max-width: 300px;
-  margin-left: 30px;
-}
-
-.hobby-info {
-  height: 100px;
 }
 
 .hobby-des {
-  margin-top: 5%;
-  margin-left: 5%;
-  font-size: 1.8rem;
-
+  /* font-size: 1.8rem; */
+  text-align: center;
 }
 
 #hobbies-hori {
-  height: 300px;
-  padding-bottom: 50px;
-}
-
-#hobbies-vert {
-  height: 60%;
-  padding-bottom: 5px;
+  height: 200px;
 }
 
 .horiz {
-  margin: 15px 10px 0px 0px;
+  margin-top: 15px;
+  margin-left: 25px;
+  height: 200px;
 }
-
-.vert {
-  margin: 100px 0px 0px 0px;
-}
-
 
 .hobby-cont {
-  height: 450px;
+  height: 940px;
   background: rgba(55, 27, 78, 0.25);
   border-radius: 30px;
+  margin-top: 5px;
 }
-/*                                                                                                  Currently unused class
- .nameplate {
-  background-image: url("./images/cyberpunk-neon-city-w-name.png");
-  height: 20%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-} */
 
-.about-me {
-  height: 700px;
+#about-me {
+  height: 1000px;
   background-color:  rgb(21, 21, 34);
-  font-size: 1.8rem;
+  /* font-size: 1.8rem; */
 
  }
  
  .hobbies {
-  height: 1000px;
+  height: 955px;
   background-color:  rgb(27, 21, 34);
-  
-  
+   
  }
 
-.portfolio {
-  height: 700px;
+#portfolio {
+  height: 1300px;
   /* background-color: darkslategrey; */
   background-color: rgb(14, 31, 31);
 }
  
-.contact-info {
-  height: 700px;
-  background-color: darkgreen;
-}
 
 .carousel {
   padding: 75px 0 0 25px;
@@ -99,6 +95,10 @@ a:hover {
 }
 
 .project-mini {
+  height:300px;
+}
+
+.project-mini-pic {
   display: inline-block;
   height: 300px;
   width: 300px;
@@ -132,17 +132,36 @@ a:hover {
 }
 
 #profile-pic {
-  height: 400px;
-  width: 700px;
+  height: 200px;
+  width: 300px;
   float: left;
-  margin: 20px 10px 0px 10px;
+  margin-top: 10px;
 }
 
 #pitch-summary {
-  display: inline;
-}
+  width: 66%;
+  margin: 10px auto;
 
+}
 
 .navbar {
   background-color: rgb(23, 23, 77); ; 
+}
+
+#backToTopBtn {
+  position: absolute;
+  top: 90%;
+  right: 1%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.178);
+  border: 0ch;
+}
+
+#AUFC {
+  margin-top: -5px;
+  padding-left: 3.5%;
+}
+
+.portfolio-buffer {
+  height: 300px;
 }

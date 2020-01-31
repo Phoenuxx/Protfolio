@@ -3,8 +3,8 @@ import GitLogo from '../../images/github-logo.svg';
 
 function Project(props) {
     return (
-        <div className="project-mini">
-            <img src={props.src} alt={props.alt} className="project-mini" id={props.id} />
+        <div className="project-mini col-8 col-lg-2">
+            <img src={props.src} alt={props.alt} className="project-mini-pic" id={props.id} />
             <div className="overlay">
                 <div class="project-title">
                     <h2><a href={props.appLink} target="_blank"> {props.alt} </a></h2>
