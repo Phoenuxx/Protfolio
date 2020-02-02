@@ -11,25 +11,6 @@ p {
   margin-top: 2px;
 }
 
-@media only screen and (min-width: 992px) {
-  html,body {
-    font-size: 20px;
-    line-height:1.75;
-  }
-
-  #about-me {
-    height: 2000px;
-    background-color:  rgb(21, 21, 34);
-  }
-
-  #profile-pic {
-    height: 400px;
-    width: 700px;
-    float: left;
-    margin-top: 10px;
-  }
-}
-
 a {
   color: white;
 }
@@ -37,6 +18,8 @@ a {
 a:hover {
   color: white;
 }
+
+
 
 .App {
   text-align: center;
@@ -48,54 +31,11 @@ a:hover {
 }
 
 .hobby-des {
-  /* font-size: 1.8rem; */
-  text-align: center;
+  text-align: right;
 }
 
 #hobbies-hori {
   height: 200px;
-}
-
-.horiz {
-  margin-top: 15px;
-  margin-left: 25px;
-  height: 200px;
-}
-
-.hobby-cont {
-  height: 940px;
-  background: rgba(55, 27, 78, 0.25);
-  border-radius: 30px;
-  margin-top: 5px;
-}
-
-#about-me {
-  height: 1000px;
-  background-color:  rgb(21, 21, 34);
-  /* font-size: 1.8rem; */
-
- }
- 
- .hobbies {
-  height: 955px;
-  background-color:  rgb(27, 21, 34);
-   
- }
-
-#portfolio {
-  height: 1300px;
-  /* background-color: darkslategrey; */
-  background-color: rgb(14, 31, 31);
-}
- 
-
-.carousel {
-  padding: 75px 0 0 25px;
-  height: 400px;
-}
-
-.project-mini {
-  height:300px;
 }
 
 .project-mini-pic {
@@ -122,6 +62,10 @@ a:hover {
   opacity: .70;
 }
 
+.portfolio-buffer {
+  height: 300px;
+}
+
 .project-title {
   text-align: center;
   padding-top: 120px;
@@ -131,12 +75,6 @@ a:hover {
   height: 50px;
 }
 
-#profile-pic {
-  height: 200px;
-  width: 300px;
-  float: left;
-  margin-top: 10px;
-}
 
 #pitch-summary {
   width: 66%;
@@ -157,11 +95,189 @@ a:hover {
   border: 0ch;
 }
 
-#AUFC {
+#aufc {
   margin-top: -5px;
   padding-left: 3.5%;
 }
 
-.portfolio-buffer {
+@media only screen and (min-width: 1200px) {
+  #about-me {
+    height: 650px;
+    background-color:  rgb(21, 21, 34);
+  }
+
+}
+/*col-lg+*/
+@media only screen and (min-width: 992px) {
+  html,body {
+    font-size: 18px;
+    line-height: 1.75;
+  }
+
+  #about-me {
+    height: 1250px;
+    background-color:  rgb(21, 21, 34);
+  }
+
+  .hobbies {
+    background-color:  rgb(27, 21, 34);
+    height: 975px;
+  }
+
+  .hobby-cont {
+    height: 550px;
+    margin-top: 200px;
+    background: rgba(55, 27, 78, 0.25) ;
+  }
+  
+  .horiz {
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  #profile-pic {
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+  }
+  
+  #portfolio {
+    height: 400px;
+    background-color: rgb(14, 31, 31);
+  }
+
+  .portfolio-buffer {
+    display: none;
+  }
+
+  .project-mini {
+    height: 300px; 
+  }
+}
+
+/*col-md*/
+@media only screen and (max-width: 991px) {
+  #about-me {
+    height: 650px ;
+    background-color:  rgb(21, 21, 34);
+  }
+
+  #profile-pic {
+    margin-top: 10px;
+  }
+  
+  #portfolio {
+    height: 1300px;
+    background-color: rgb(14, 31, 31);
+  }
+  
+  .horiz {
+    margin-top: 10px;
+    margin-left: 45px ;
+  }
+
+  .hobbies {
+    background-color:  rgb(27, 21, 34);
+    height: 800px ;
+  }
+  
+  .hobby-cont {
+    height: 450px;
+    margin-top: 20px;
+    background: rgba(55, 27, 78, 0.25) ;
+  }  
+
+  .project-mini {
+    height: 300px; 
+  }
+}
+
+/*col-s*/
+@media screen and (max-width: 767px) {
+
+  .horiz {
+    margin-left: 17px;
+    height: 200px;
+  }
+  
+  .hobby-cont {
+    height: 700px;
+    /* background: rgba(55, 27, 78, 0.25); */
+    border-radius: 30px;
+    margin-top: 5px;
+  }
+  
+  #about-me {
+    height: 920px;
+    background-color:  rgb(21, 21, 34);
+  }
+  
+  .hobbies {
+    height: 935px;
+    background-color:  rgb(27, 21, 34);
+  }
+
+  #portfolio {
+    height: 1250px;
+    background-color: rgb(14, 31, 31);
+  }
+
+  #profile-pic {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+  }
+  
+.project-mini {
+  height: 300px; 
+  }
+}
+
+/*col-xs*/
+@media screen and (max-width: 575px) {
+
+  .horiz {
+    margin-left: 17px;
+    height: 200px;
+
+  }
+  
+  .hobby-cont {
+    height: 700px;
+    background: rgba(55, 27, 78, 0);
+    border-radius: 30px;
+    margin-top: 5px;
+  }
+  
+  #about-me {
+    height: 800px;
+    background-color:  rgb(21, 21, 34);
+  }
+  
+  .hobbies {
+    height: 950px;
+    background-color:  rgb(27, 21, 34);
+  }
+
+  #portfolio {
+    height: 1250px;
+    /* background-color: darkslategrey; */
+    background-color: rgb(14, 31, 31);
+  }
+
+  #profile-pic {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+  }
+  
+.project-mini {
   height: 300px;
+  }
+  #backToTopBtn {
+    display: none;
+  }
 }

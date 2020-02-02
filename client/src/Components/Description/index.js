@@ -6,17 +6,16 @@ function Descript(props) {
     case 'reading':
       return (
         <div className="description-body" className={props.class}>
-          <p>
-          I used to do a fair bit of reading when I was a little kid and fell
-          off the wagon from middle school until a few years ago. I've mostly
-          read web serials such as Metaworld Chronciles (an ongoing story and
-          my current favorite), and The Wandering Inn (a close second favorite).
-          I Also read Light Novels and Manga as well. I've tried my hand at writing
-          my own stories over the years but have found it difficult to stick with a
-          single concept long enough to produce an enjoyable story.
+          <p>I used to do a fair bit of reading when I was a little kid and fell
+            off the wagon from middle school until a few years ago. I've mostly
+            read web serials such as Metaworld Chronciles (an ongoing story and
+            my current favorite), and The Wandering Inn (a close second favorite).
+            I Also read Light Novels and Manga as well. I've tried my hand at writing
+            my own stories over the years but have found it difficult to stick with a
+            single concept long enough to produce an enjoyable story.
           </p>
         </div>);
-    case 'AUFC':
+    case 'aufc':
       return (
         <div className="description-body" className={props.class}>
           <p>I played soccer for 14 years and have some interest in one day
@@ -28,7 +27,7 @@ function Descript(props) {
           same team.
           </p>
         </div>);
-    case 'Game':
+    case 'game':
       return (
         <div className="description-body" className={props.class}>
           <p> My favorite video game would be a bit of a more difficult
@@ -43,7 +42,7 @@ function Descript(props) {
           a lot of the Overwatch League where my favorite team is the Atlanta Reign.
           </p>
         </div>);
-    case 'Anime':
+    case 'anime':
       return (
         <div className="description-body" className={props.class}>
           <p>I watched my fair share of anime as a young kid, catching
@@ -55,7 +54,7 @@ function Descript(props) {
            there are just too many shows that I would rate 10/10.
           </p>
         </div>);
-    case 'Blender':
+    case 'blender':
       return (
         <div className="description-body" className={props.class}>
           <p>I picked up 3D modeling in Blender about 4 years ago and
@@ -71,22 +70,21 @@ function Descript(props) {
       return (
         <div className="description-body" className={props.class}>
           <p>
-          I am 24 years old and was born in Mdonough, Georgia. My top 4
-          hobbies include soccer, video games, reading and anime;
-          though I like to dabble in various things which is how I've
-          found my way into web development. I'm hoping to use the
-          skills I learn from this experience to one day shift over
-          into game development. I also have interests in one day
-          starting my own business so the skills I'm developing now will
-          provide a way of creating my own website when the time
-          comes versus hiring someone else to handle it for me.
+            I am 24 years old and was born in Mdonough, Georgia. My top 4
+            hobbies include soccer, video games, reading and anime;
+            though I like to dabble in various things which is how I've
+            found my way into web development. I'm hoping to use the
+            skills I learn from this experience to one day shift over
+            into game development. I have interests in one day
+            starting a business so the skills I develop now will
+            provide a way of creating my own website.
           <br />
-          <br />
-          <u>To learn more about me and my hobbies, hover over one of the surrounding pictures.</u>
+            <br />
+            <u>To learn more about me and my hobbies, hover over one of the surrounding pictures.</u>
           </p>
         </div>);
-  }
+  };
 
-}
+};
 
 export default Descript;

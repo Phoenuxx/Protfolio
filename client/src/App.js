@@ -15,11 +15,6 @@ import RPG from './images/project_photos/RPG-preview.JPG';
 import Trivia from './images/project_photos/Trivia-preview.JPG';
 import Train from './images/project_photos/train-preview.gif';
 import Giphy from './images/project_photos/giphy-preview.JPG';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
-
-
 
 class App extends Component {
 
@@ -57,8 +52,8 @@ class App extends Component {
       <Container>
         <Navbar header="Brandon Stevenson" id="top" />
         <Container id="about-me" class="row" >
-          <div className="col-1 col-sm-2 col-lg-3" />
-          <img src={profilePic} id="profile-pic" className="col-10 col-sm-8 col-lg-6" alt="Brandon Stevenson" />
+          <div className="col-1 col-sm-2 col-md-3 col-lg-3" />
+          <img src={profilePic} id="profile-pic" className="col-10 col-sm-8 col-md-6 col-lg-6" alt="Brandon Stevenson" />
           <div className="row">
             <p id="pitch-summary" className="col-11 col-sm-8 col-md-10 col-lg-6">
               I'm a fledgling full-stack web developer with plenty still to learn and an ever growing desire to get better at everything I set my sights on.
@@ -68,30 +63,27 @@ class App extends Component {
               My experience working in Data Entry with the logistics industry has strengthened my
               ability to adapt to ever changing work conditions and piece together whole pictures from partial or minimal details quickly and effectively, all while honing
               my ability to balance quality with quantity/speed. That experience I feel has gone a long way towards improving my ability to debug my and my teammates code as we work. I won't go as far as to say I enjoy reading lengthy code documentation but I feel my ability to learn quickly is worth bragging about and i enjoy overcoming a good challenge.
-            {/* The gamer in me has always looked at programmers with admiration ever since I was little and I'm hoping to jump into the field through web development to hopefully make a positive impact
-            on someone else's life one day. */}
             </p>
           </div>
         </Container>
         <Navbar header="Hobbies" />
         <Container class="hobbies row">
           <Container class="row" id="hobbies-hori">
-            <Container class="col-7">
-              <Hobby src={Akatsuki} class={'horiz'} topic={'reading'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
-              <Hobby src={AUFC} class={'horiz'} topic={'AUFC'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
-              <Hobby src={Bio} class={'horiz'} topic={'Game'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
-              <Hobby src={NGNL} class={'horiz'} topic={'Anime'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
-              <Hobby src={Blend} class={'horiz'} topic={'Blender'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
+            <Container class="col-7 col-md-6 col-lg-6">
+              <Hobby src={Akatsuki} class={'horiz other'} topic={'reading'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
+              <Hobby src={AUFC} class={'horiz'} topic={'aufc'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
+              <Hobby src={Bio} class={'horiz'} topic={'game'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
+              <Hobby src={NGNL} class={'horiz'} topic={'anime'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
+              <Hobby src={Blend} class={'horiz'} topic={'blender'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
             </Container>
-            <Container class="col-4 hobby-cont">
+            <Container class="col-4 col-md-5 col-lg-5 hobby-cont">
               <Descript topic={this.state.activeHobby} class={'hobby-des'} />
             </Container>
           </Container>
-
         </Container>
         <Navbar header="Portfolio" />
         <Container id="portfolio" class="row">
-          <Container class="portfolio-buffer col-2" />
+          <Container class="portfolio-buffer col-2 col-md-4" />
           <Project src={RPG} alt="RPG Game" id="rpg-preview" gitLink="https://github.com/Phoenuxx/unit-4-game" appLink="https://phoenuxx.github.io/unit-4-game/" />
           <Container class="portfolio-buffer col-2" /><Container class="portfolio-buffer col-2" />
           <Project src={Trivia} alt="Trivia Game" id="trivia-preview" gitLink="https://github.com/Phoenuxx/TriviaGame" appLink="https://phoenuxx.github.io/TriviaGame/" />
