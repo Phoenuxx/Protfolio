@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   overflow-x: hidden;
   color: white;
+  background-color: black;
   font-family: 'Merriweather', serif; 
   font-size: 1rem;
 }
@@ -10,7 +11,7 @@ html, body {
 p {
   margin-top: 2px;
 }
-
+ 
 a {
   color: white;
 }
@@ -19,14 +20,7 @@ a:hover {
   color: white;
 }
 
-
-
-.App {
-  text-align: center;
-}
-
 .hobby-pic {
-  max-height: 200px;
   max-width: 300px;
 }
 
@@ -40,7 +34,7 @@ a:hover {
 
 .project-mini-pic {
   display: inline-block;
-  height: 300px;
+  height: 305px;
   width: 300px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -75,15 +69,15 @@ a:hover {
   height: 50px;
 }
 
-
 #pitch-summary {
   width: 66%;
   margin: 10px auto;
-
+  padding-top: 5px;
+  background: rgba(55, 27, 78, 0.25) ;
 }
 
 .navbar {
-  background-color: rgb(23, 23, 77); ; 
+  text-align: center;
 }
 
 #backToTopBtn {
@@ -91,22 +85,39 @@ a:hover {
   top: 90%;
   right: 1%;
   color: white;
-  background-color: rgba(0, 0, 0, 0.178);
+  background-color: rgba(56, 55, 55, 0.212);
   border: 0ch;
 }
 
 #aufc {
+  height: 200px;
+  width: 210px;
   margin-top: -5px;
   padding-left: 3.5%;
 }
 
+#reading {
+ height: 167px;
+}
+
+#game {
+  height: 153px;
+}
+
+#anime {
+  height: 128px;
+}
+
+#blender {
+  height: 92px;
+}
+/*col-xl about-me shrink not working(?) */
 @media only screen and (min-width: 1200px) {
   #about-me {
     height: 650px;
-    background-color:  rgb(21, 21, 34);
   }
-
 }
+
 /*col-lg+*/
 @media only screen and (min-width: 992px) {
   html,body {
@@ -116,11 +127,9 @@ a:hover {
 
   #about-me {
     height: 1250px;
-    background-color:  rgb(21, 21, 34);
   }
 
   .hobbies {
-    background-color:  rgb(27, 21, 34);
     height: 975px;
   }
 
@@ -131,7 +140,7 @@ a:hover {
   }
   
   .horiz {
-    height: 200px;
+    height: 190px;
     margin-top: 20px;
     margin-left: 25px;
   }
@@ -144,15 +153,15 @@ a:hover {
   
   #portfolio {
     height: 400px;
-    background-color: rgb(14, 31, 31);
   }
 
-  .portfolio-buffer {
+  .col-xl-0 {
     display: none;
   }
 
+
   .project-mini {
-    height: 300px; 
+    height: 305px; 
   }
 }
 
@@ -160,7 +169,6 @@ a:hover {
 @media only screen and (max-width: 991px) {
   #about-me {
     height: 650px ;
-    background-color:  rgb(21, 21, 34);
   }
 
   #profile-pic {
@@ -169,7 +177,6 @@ a:hover {
   
   #portfolio {
     height: 1300px;
-    background-color: rgb(14, 31, 31);
   }
   
   .horiz {
@@ -178,18 +185,17 @@ a:hover {
   }
 
   .hobbies {
-    background-color:  rgb(27, 21, 34);
     height: 800px ;
   }
   
   .hobby-cont {
     height: 450px;
     margin-top: 20px;
-    background: rgba(55, 27, 78, 0.25) ;
+    background: rgba(55, 27, 78, 0.25);
   }  
 
   .project-mini {
-    height: 300px; 
+    height: 305px; 
   }
 }
 
@@ -201,26 +207,23 @@ a:hover {
     height: 200px;
   }
   
+
   .hobby-cont {
     height: 700px;
-    /* background: rgba(55, 27, 78, 0.25); */
     border-radius: 30px;
     margin-top: 5px;
   }
   
   #about-me {
     height: 920px;
-    background-color:  rgb(21, 21, 34);
   }
   
   .hobbies {
     height: 935px;
-    background-color:  rgb(27, 21, 34);
   }
 
   #portfolio {
     height: 1250px;
-    background-color: rgb(14, 31, 31);
   }
 
   #profile-pic {
@@ -231,7 +234,7 @@ a:hover {
   }
   
 .project-mini {
-  height: 300px; 
+  height: 305px;
   }
 }
 
@@ -241,7 +244,6 @@ a:hover {
   .horiz {
     margin-left: 17px;
     height: 200px;
-
   }
   
   .hobby-cont {
@@ -253,18 +255,19 @@ a:hover {
   
   #about-me {
     height: 800px;
-    background-color:  rgb(21, 21, 34);
   }
+
+  #pitch-summary {
+    background-color: black;
+  }
+  
   
   .hobbies {
     height: 950px;
-    background-color:  rgb(27, 21, 34);
   }
 
   #portfolio {
     height: 1250px;
-    /* background-color: darkslategrey; */
-    background-color: rgb(14, 31, 31);
   }
 
   #profile-pic {
@@ -275,8 +278,9 @@ a:hover {
   }
   
 .project-mini {
-  height: 300px;
+  height: 305px;
   }
+
   #backToTopBtn {
     display: none;
   }

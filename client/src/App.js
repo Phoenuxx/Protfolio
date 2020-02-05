@@ -15,10 +15,8 @@ import RPG from './images/project_photos/RPG-preview.JPG';
 import Trivia from './images/project_photos/Trivia-preview.JPG';
 import Train from './images/project_photos/train-preview.gif';
 import Giphy from './images/project_photos/giphy-preview.JPG';
-
+import Japanese from './images/project_photos/japanese_w.JPG';
 class App extends Component {
-
-
 
   constructor(props) {
     super(props);
@@ -32,7 +30,6 @@ class App extends Component {
     this.handleOnMouseExit = this.handleOnMouseExit.bind(this);
     this.handleScrollTOTop = this.handleScrollToTop.bind(this);
   }
-
 
   handleScrollToTop = () => {
     const elmnt = document.getElementById("top");
@@ -55,6 +52,7 @@ class App extends Component {
           <div className="col-1 col-sm-2 col-md-3 col-lg-3" />
           <img src={profilePic} id="profile-pic" className="col-10 col-sm-8 col-md-6 col-lg-6" alt="Brandon Stevenson" />
           <div className="row">
+  
             <p id="pitch-summary" className="col-11 col-sm-8 col-md-10 col-lg-6">
               I'm a fledgling full-stack web developer with plenty still to learn and an ever growing desire to get better at everything I set my sights on.
               I'm an alumni of Georgia Tech's Full-Stack Web Development boot camp. Through the 6 month course I trained in the MERN stack and as an inevitable result my primary skill is with Javascript/Jquery.
@@ -69,28 +67,31 @@ class App extends Component {
         <Navbar header="Hobbies" />
         <Container class="hobbies row">
           <Container class="row" id="hobbies-hori">
-            <Container class="col-7 col-md-6 col-lg-6">
+          <div className="col-lg-1 col-xl-2" />
+            <Container class="col-7 col-md-6 col-lg-5 col-xl-4">
               <Hobby src={Akatsuki} class={'horiz other'} topic={'reading'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
               <Hobby src={AUFC} class={'horiz'} topic={'aufc'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
               <Hobby src={Bio} class={'horiz'} topic={'game'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
               <Hobby src={NGNL} class={'horiz'} topic={'anime'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
               <Hobby src={Blend} class={'horiz'} topic={'blender'} onMouseEnter={this.handleOnMouseEnter} onMouseExit={this.handleOnMouseExit} />
             </Container>
-            <Container class="col-4 col-md-5 col-lg-5 hobby-cont">
+            <Container class="hobby-cont col-4 col-md-5 col-lg-5 col-xl-3 ">
               <Descript topic={this.state.activeHobby} class={'hobby-des'} />
             </Container>
           </Container>
         </Container>
         <Navbar header="Portfolio" />
         <Container id="portfolio" class="row">
-          <Container class="portfolio-buffer col-2 col-md-4" />
+          <Container class="portfolio-buffer col-2 col-md-4 col-lg-1 col-xl-1 " />
           <Project src={RPG} alt="RPG Game" id="rpg-preview" gitLink="https://github.com/Phoenuxx/unit-4-game" appLink="https://phoenuxx.github.io/unit-4-game/" />
-          <Container class="portfolio-buffer col-2" /><Container class="portfolio-buffer col-2" />
+          <Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" /><Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" />
           <Project src={Trivia} alt="Trivia Game" id="trivia-preview" gitLink="https://github.com/Phoenuxx/TriviaGame" appLink="https://phoenuxx.github.io/TriviaGame/" />
-          <Container class="portfolio-buffer col-2" /><Container class="portfolio-buffer col-2" />
+          <Container class="portfolio-buffer col-2 col-lg-3 col-xl-1" /><Container class="portfolio-buffer col-2 col-lg-1  col-xl-1" />
           <Project src={Train} alt="Train Scheduler" id="train-preview" gitLink="https://github.com/Phoenuxx/train-time" appLink="https://phoenuxx.github.io/train-time/" />
-          <Container class="portfolio-buffer col-2" /><Container class="portfolio-buffer col-2" />
+          <Container class="portfolio-buffer col-2 col-lg-4 col-xl-2" /><Container class="portfolio-buffer col-2 col-lg-1  col-xl-1" />
           <Project src={Giphy} alt="Giphiphy Generator" id="giphy-preview" gitLink="https://github.com/Phoenuxx/giphiphy-api" appLink="https://phoenuxx.github.io/giphiphy-api" />
+          <Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" /><Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" />
+        <Project src={Japanese} alt="Japanese Helper" id="japanese-preview" gitLink="https://github.com/Phoenuxx/Kanji-Helper" appLink="" />
         </Container>
         <button onClick={this.handleScrollToTop} id="backToTopBtn">BACK TO TOP</button>
       </Container>

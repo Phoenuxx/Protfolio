@@ -6,6 +6,7 @@ function Descript(props) {
     case 'reading':
       return (
         <div className="description-body" className={props.class}>
+          <h1>Reading</h1>
           <p>I used to do a fair bit of reading when I was a little kid and fell
             off the wagon from middle school until a few years ago. I've mostly
             read web serials such as Metaworld Chronciles (an ongoing story and
@@ -18,6 +19,7 @@ function Descript(props) {
     case 'aufc':
       return (
         <div className="description-body" className={props.class}>
+          <h1>Soccer</h1>
           <p>I played soccer for 14 years and have some interest in one day
           coaching a team myself. My favorite soccer team is Atlanta
           United who won the 2018 MLS Cup in only their second year of
@@ -30,6 +32,7 @@ function Descript(props) {
     case 'game':
       return (
         <div className="description-body" className={props.class}>
+          <h1>Video Games</h1>
           <p> My favorite video game would be a bit of a more difficult
           choice though. Bioshock Infinite would definitely be near
           the top of the list. It built on the gameplay mechanics of the
@@ -45,6 +48,7 @@ function Descript(props) {
     case 'anime':
       return (
         <div className="description-body" className={props.class}>
+          <h1>Anime</h1>
           <p>I watched my fair share of anime as a young kid, catching
            Dragon Ball on the weekends or the occasional Gundam
            episode at night, but it wasn't until I was around 18
@@ -56,7 +60,9 @@ function Descript(props) {
         </div>);
     case 'blender':
       return (
-        <div className="description-body" className={props.class}>
+        <div className="description-body" className={props.class}> 
+         
+          <h1> <br />3D Model</h1>
           <p>I picked up 3D modeling in Blender about 4 years ago and
            have continued making models off and on ever since. Last year
            I picked up a 3D printer from Prusa and have really dove back
@@ -69,6 +75,7 @@ function Descript(props) {
     default:
       return (
         <div className="description-body" className={props.class}>
+          <h1>Who Am I?</h1>
           <p>
             I am 24 years old and was born in Mdonough, Georgia. My top 4
             hobbies include soccer, video games, reading and anime;
@@ -84,7 +91,6 @@ function Descript(props) {
           </p>
         </div>);
   };
-
 };
 
 export default Descript;

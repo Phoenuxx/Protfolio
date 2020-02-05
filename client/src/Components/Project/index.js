@@ -3,7 +3,7 @@ import GitLogo from '../../images/github-logo.svg';
 
 function Project(props) {
     return (
-        <div className="project-mini col-8 col-lg-3">
+        <div className="project-mini col-8 col-lg-4 col-xl-2">
             <img src={props.src} alt={props.alt} className="project-mini-pic" id={props.id} />
             <div className="overlay">
                 <div class="project-title">
