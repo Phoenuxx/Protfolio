@@ -50,7 +50,7 @@ class App extends Component {
         <Navbar header="Brandon Stevenson" id="top" />
         <Container id="about-me" class="row" >
           <div className="col-1 col-sm-2 col-md-3 col-lg-3" />
-          <img src={profilePic} id="profile-pic" className="col-10 col-sm-8 col-md-6 col-lg-6" alt="Brandon Stevenson" />
+          <img src={profilePic} id="profile-pic" className="col-10 col-sm-8 col-md-6 col-lg-6" alt="Brandon Stevenson Profile Pic" />
           <div className="row">
   
             <p id="pitch-summary" className="col-11 col-sm-8 col-md-10 col-lg-6">
