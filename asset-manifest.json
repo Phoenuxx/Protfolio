@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0891fd32.chunk.css",
+    "main.js": "/static/js/main.693fb8a5.chunk.js",
+    "main.js.map": "/static/js/main.693fb8a5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cea588d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cea588d5.js.map",
+    "static/js/2.997436c0.chunk.js": "/static/js/2.997436c0.chunk.js",
+    "static/js/2.997436c0.chunk.js.map": "/static/js/2.997436c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5e09f9260649bbaabb2b82c83850708b.js": "/precache-manifest.5e09f9260649bbaabb2b82c83850708b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0891fd32.chunk.css.map": "/static/css/main.0891fd32.chunk.css.map",
+    "static/js/2.997436c0.chunk.js.LICENSE": "/static/js/2.997436c0.chunk.js.LICENSE",
+    "static/media/NGNL.png": "/static/media/NGNL.72a5f55b.png",
+    "static/media/RPG-preview.JPG": "/static/media/RPG-preview.3b7fcc7b.JPG",
+    "static/media/Trivia-preview.JPG": "/static/media/Trivia-preview.d646c628.JPG",
+    "static/media/akatsuki-face.png": "/static/media/akatsuki-face.3c42d17f.png",
+    "static/media/arctic_fox.jpg": "/static/media/arctic_fox.e83ae917.jpg",
+    "static/media/aufc.png": "/static/media/aufc.eaa956cb.png",
+    "static/media/bio-inf.png": "/static/media/bio-inf.8833d737.png",
+    "static/media/blender-logo.png": "/static/media/blender-logo.323c64ef.png",
+    "static/media/giphy-preview.JPG": "/static/media/giphy-preview.1db6b003.JPG",
+    "static/media/github-logo.svg": "/static/media/github-logo.76d344f0.svg",
+    "static/media/japanese_w.JPG": "/static/media/japanese_w.4a8085b3.JPG",
+    "static/media/train-preview.gif": "/static/media/train-preview.14a13ae0.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cea588d5.js",
+    "static/js/2.997436c0.chunk.js",
+    "static/css/main.0891fd32.chunk.css",
+    "static/js/main.693fb8a5.chunk.js"
+  ]
+}
