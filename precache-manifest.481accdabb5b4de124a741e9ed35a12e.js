@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9efe1bec7ccde7d0caa5f95205465cbd",
+    "revision": "ba2fa82afd3ab49e9528bdfe40300dcd",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "a03a36836edaa13e3536",
-    "url": "/Portfolio/static/css/main.0891fd32.chunk.css"
+    "revision": "9266dd74aa90b8edef3c",
+    "url": "/Portfolio/static/css/main.598aaff5.chunk.css"
   },
   {
     "revision": "5a2d6e5eda916c51a613",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.997436c0.chunk.js.LICENSE"
   },
   {
-    "revision": "a03a36836edaa13e3536",
-    "url": "/Portfolio/static/js/main.66a37d77.chunk.js"
+    "revision": "9266dd74aa90b8edef3c",
+    "url": "/Portfolio/static/js/main.e8cc0558.chunk.js"
   },
   {
     "revision": "2ef2194a58b60d755ac5",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c42d17fc9ebde51224b2cc2fa10c1db",
     "url": "/Portfolio/static/media/akatsuki-face.3c42d17f.png"
-  },
-  {
-    "revision": "e83ae9170ee9d2944d200d35fa669894",
-    "url": "/Portfolio/static/media/arctic_fox.e83ae917.jpg"
   },
   {
     "revision": "eaa956cb6a0b299e200ee2271ad575fb",

@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0891fd32.chunk.css",
-    "main.js": "/Portfolio/static/js/main.66a37d77.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.66a37d77.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.598aaff5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e8cc0558.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e8cc0558.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.31027453.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.31027453.js.map",
     "static/js/2.997436c0.chunk.js": "/Portfolio/static/js/2.997436c0.chunk.js",
     "static/js/2.997436c0.chunk.js.map": "/Portfolio/static/js/2.997436c0.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.f5dc2c2c73f5df8ee34dc1aefd720f47.js": "/Portfolio/precache-manifest.f5dc2c2c73f5df8ee34dc1aefd720f47.js",
+    "precache-manifest.481accdabb5b4de124a741e9ed35a12e.js": "/Portfolio/precache-manifest.481accdabb5b4de124a741e9ed35a12e.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.0891fd32.chunk.css.map": "/Portfolio/static/css/main.0891fd32.chunk.css.map",
+    "static/css/main.598aaff5.chunk.css.map": "/Portfolio/static/css/main.598aaff5.chunk.css.map",
     "static/js/2.997436c0.chunk.js.LICENSE": "/Portfolio/static/js/2.997436c0.chunk.js.LICENSE",
     "static/media/NGNL.png": "/Portfolio/static/media/NGNL.72a5f55b.png",
     "static/media/RPG-preview.JPG": "/Portfolio/static/media/RPG-preview.3b7fcc7b.JPG",
     "static/media/Trivia-preview.JPG": "/Portfolio/static/media/Trivia-preview.d646c628.JPG",
     "static/media/akatsuki-face.png": "/Portfolio/static/media/akatsuki-face.3c42d17f.png",
-    "static/media/arctic_fox.jpg": "/Portfolio/static/media/arctic_fox.e83ae917.jpg",
     "static/media/aufc.png": "/Portfolio/static/media/aufc.eaa956cb.png",
     "static/media/bio-inf.png": "/Portfolio/static/media/bio-inf.8833d737.png",
     "static/media/blender-logo.png": "/Portfolio/static/media/blender-logo.323c64ef.png",
@@ -28,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.31027453.js",
     "static/js/2.997436c0.chunk.js",
-    "static/css/main.0891fd32.chunk.css",
-    "static/js/main.66a37d77.chunk.js"
+    "static/css/main.598aaff5.chunk.css",
+    "static/js/main.e8cc0558.chunk.js"
   ]
 }
