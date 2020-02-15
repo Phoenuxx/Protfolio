@@ -89,6 +89,33 @@ a:hover {
   border: 0ch;
 }
 
+#email {
+  position: absolute;
+  top: 70%;
+  right: 3%;
+  color: white;
+  background-color: rgba(56, 55, 55, 0.212);
+  border: 0ch;
+}
+
+#git {
+  position: absolute;
+  top: 77%;
+  right: 3%;
+  color: white;
+  background-color: rgba(56, 55, 55, 0.212);
+  border: 0ch;
+}
+
+#linkedin {
+  position: absolute;
+  top: 84%;
+  right: 3%;
+  color: white;
+  background-color: rgba(56, 55, 55, 0.212);
+  border: 0ch;
+}
+
 #aufc {
   height: 200px;
   width: 210px;
@@ -285,4 +312,32 @@ a:hover {
   #backToTopBtn {
     display: none;
   }
+
+  #email {
+    position: absolute;
+    top: 70%;
+    right: 4%;
+    color: white;
+    background-color: rgba(56, 55, 55, 0.212);
+    border: 0ch;
+  }
+  
+  #git {
+    position: absolute;
+    top: 77%;
+    right: 4%;
+    color: white;
+    background-color: rgba(56, 55, 55, 0.212);
+    border: 0ch;
+  }
+  
+  #linkedin {
+    position: absolute;
+    top: 84%;
+    right: 4%;
+    color: white;
+    background-color: rgba(56, 55, 55, 0.212);
+    border: 0ch;
+  }
+
 }

@@ -16,6 +16,9 @@ import Trivia from './images/project_photos/Trivia-preview.JPG';
 import Train from './images/project_photos/train-preview.gif';
 import Giphy from './images/project_photos/giphy-preview.JPG';
 import Japanese from './images/project_photos/japanese_w.JPG';
+import GitLogo from './images/white_git_logo.png';
+import LinkedIn from './images/white_linkedin.png';
+import Email from './images/white-envelope-png.png';
 
 
 class App extends Component {
@@ -98,7 +101,10 @@ class App extends Component {
           <Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" /><Container class="portfolio-buffer col-2 col-lg-1 col-xl-1" />
           <Project src={Japanese} alt="Japanese Helper" id="japanese-preview" gitLink="https://github.com/Phoenuxx/Kanji-Helper" appLink="https://phoenuxx.github.io/Kanji-Helper/#/" />
         </Container>
-        <button onClick={this.handleScrollToTop} id="backToTopBtn">BACK TO TOP</button>
+        <button onClick={this.handleScrollToTop} id="backToTopBtn">BACK <br /> TO TOP</button>
+        <div className="contact-me" id="email"> <a href="mailto:bdstevenson4225@aol.com"><img src={Email} className="git"/></a></div>
+        <div className="contact-me" id='git'><a href="https://github.com/Phoenuxx"><img src={GitLogo} className="git"/></a></div>
+        <div className="contact-me" id='linkedin'><a href='https://www.linkedin.com/in/brandon-stevenson-b3785817b/'><img src={LinkedIn} className="git"/></a></div>
       </Container>
     );
   }
